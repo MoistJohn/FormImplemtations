@@ -6,5 +6,30 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./projects/single-component-form/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/single-component-form/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/multi-component-form/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/multi-component-form/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/multi-component-reactive-form/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/multi-component-reactive-form/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/single-component-reactive-form/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/single-component-reactive-form/tsconfig.spec.json"
+    }
+]
 }
