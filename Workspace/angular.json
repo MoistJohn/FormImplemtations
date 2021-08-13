@@ -84,10 +84,8 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/single-component-form/src/test.ts",
             "polyfills": "projects/single-component-form/src/polyfills.ts",
             "tsConfig": "projects/single-component-form/tsconfig.spec.json",
-            "karmaConfig": "projects/single-component-form/karma.conf.js",
             "assets": [
               "projects/single-component-form/src/favicon.ico",
               "projects/single-component-form/src/assets"
@@ -193,10 +191,8 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/multi-component-form/src/test.ts",
             "polyfills": "projects/multi-component-form/src/polyfills.ts",
             "tsConfig": "projects/multi-component-form/tsconfig.spec.json",
-            "karmaConfig": "projects/multi-component-form/karma.conf.js",
             "assets": [
               "projects/multi-component-form/src/favicon.ico",
               "projects/multi-component-form/src/assets"
@@ -302,10 +298,8 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/multi-component-reactive-form/src/test.ts",
             "polyfills": "projects/multi-component-reactive-form/src/polyfills.ts",
             "tsConfig": "projects/multi-component-reactive-form/tsconfig.spec.json",
-            "karmaConfig": "projects/multi-component-reactive-form/karma.conf.js",
             "assets": [
               "projects/multi-component-reactive-form/src/favicon.ico",
               "projects/multi-component-reactive-form/src/assets"
@@ -411,10 +405,8 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/single-component-reactive-form/src/test.ts",
             "polyfills": "projects/single-component-reactive-form/src/polyfills.ts",
             "tsConfig": "projects/single-component-reactive-form/tsconfig.spec.json",
-            "karmaConfig": "projects/single-component-reactive-form/karma.conf.js",
             "assets": [
               "projects/single-component-reactive-form/src/favicon.ico",
               "projects/single-component-reactive-form/src/assets"
