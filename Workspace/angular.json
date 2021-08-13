@@ -104,23 +104,10 @@
             "tsConfig": [
               "projects/single-component-form/tsconfig.app.json",
               "projects/single-component-form/tsconfig.spec.json",
-              "projects/single-component-form/e2e/tsconfig.json"
             ],
             "exclude": [
               "**/node_modules/**"
             ]
-          }
-        },
-        "e2e": {
-          "builder": "@angular-devkit/build-angular:protractor",
-          "options": {
-            "protractorConfig": "projects/single-component-form/e2e/protractor.conf.js",
-            "devServerTarget": "single-component-form:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "single-component-form:serve:production"
-            }
           }
         }
       }
@@ -226,23 +213,10 @@
             "tsConfig": [
               "projects/multi-component-form/tsconfig.app.json",
               "projects/multi-component-form/tsconfig.spec.json",
-              "projects/multi-component-form/e2e/tsconfig.json"
             ],
             "exclude": [
               "**/node_modules/**"
             ]
-          }
-        },
-        "e2e": {
-          "builder": "@angular-devkit/build-angular:protractor",
-          "options": {
-            "protractorConfig": "projects/multi-component-form/e2e/protractor.conf.js",
-            "devServerTarget": "multi-component-form:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "multi-component-form:serve:production"
-            }
           }
         }
       }
@@ -348,23 +322,10 @@
             "tsConfig": [
               "projects/multi-component-reactive-form/tsconfig.app.json",
               "projects/multi-component-reactive-form/tsconfig.spec.json",
-              "projects/multi-component-reactive-form/e2e/tsconfig.json"
             ],
             "exclude": [
               "**/node_modules/**"
             ]
-          }
-        },
-        "e2e": {
-          "builder": "@angular-devkit/build-angular:protractor",
-          "options": {
-            "protractorConfig": "projects/multi-component-reactive-form/e2e/protractor.conf.js",
-            "devServerTarget": "multi-component-reactive-form:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "multi-component-reactive-form:serve:production"
-            }
           }
         }
       }
@@ -470,26 +431,12 @@
             "tsConfig": [
               "projects/single-component-reactive-form/tsconfig.app.json",
               "projects/single-component-reactive-form/tsconfig.spec.json",
-              "projects/single-component-reactive-form/e2e/tsconfig.json"
             ],
             "exclude": [
               "**/node_modules/**"
             ]
           }
-        },
-        "e2e": {
-          "builder": "@angular-devkit/build-angular:protractor",
-          "options": {
-            "protractorConfig": "projects/single-component-reactive-form/e2e/protractor.conf.js",
-            "devServerTarget": "single-component-reactive-form:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "single-component-reactive-form:serve:production"
-            }
-          }
         }
       }
-    }},
-  "defaultProject": "single-component-form"
+    }}
 }
