@@ -28,6 +28,7 @@
               "projects/single-component-form/src/assets"
             ],
             "styles": [
+              "node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "projects/single-component-form/src/styles.sass"
             ],
             "scripts": []
@@ -101,7 +102,7 @@
           "options": {
             "tsConfig": [
               "projects/single-component-form/tsconfig.app.json",
-              "projects/single-component-form/tsconfig.spec.json",
+              "projects/single-component-form/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -208,7 +209,7 @@
           "options": {
             "tsConfig": [
               "projects/multi-component-form/tsconfig.app.json",
-              "projects/multi-component-form/tsconfig.spec.json",
+              "projects/multi-component-form/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -315,7 +316,7 @@
           "options": {
             "tsConfig": [
               "projects/multi-component-reactive-form/tsconfig.app.json",
-              "projects/multi-component-reactive-form/tsconfig.spec.json",
+              "projects/multi-component-reactive-form/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -422,7 +423,7 @@
           "options": {
             "tsConfig": [
               "projects/single-component-reactive-form/tsconfig.app.json",
-              "projects/single-component-reactive-form/tsconfig.spec.json",
+              "projects/single-component-reactive-form/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
